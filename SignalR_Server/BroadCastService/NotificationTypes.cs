@@ -7,6 +7,8 @@ namespace SignalR_Server.BroadCastService
 {
     public static class NotificationTypes
     {
-        public static string Chat = "chat_notification";
+        public static string All = "all_notification";
+        public static string Caller = "Caller_notification";
+        public static string Group = "Group_notification";
     }
 }
